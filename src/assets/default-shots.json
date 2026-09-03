@@ -1,0 +1,466 @@
+{
+  "format": "ballistics-visualizer",
+  "version": 1,
+  "shots": [
+    {
+      "id": "243-win-100-powershok",
+      "name": ".243 Win — Federal Power-Shok 100gr",
+      "color": "#ff6b2c",
+      "visible": true,
+      "muzzleVelocityFps": 2960,
+      "projectile": {
+        "ballisticCoefficient": 0.355,
+        "dragModel": "G1",
+        "weightGrains": 100,
+        "diameterInches": 0.243,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [{}, {}]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        }
+      },
+      "environment": {
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "relativeHumidity": 50,
+        "altitudeFeet": 0
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "65-creedmoor-143-eldx",
+      "name": "6.5 Creedmoor — Hornady Precision Hunter 143gr ELD-X",
+      "color": "#2cc5ff",
+      "visible": true,
+      "muzzleVelocityFps": 2700,
+      "projectile": {
+        "ballisticCoefficient": 0.315,
+        "dragModel": "G7",
+        "weightGrains": 143,
+        "diameterInches": 0.264,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [{}, {}]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        }
+      },
+      "environment": {
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "relativeHumidity": 50,
+        "altitudeFeet": 0
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "270-win-130-sst",
+      "name": ".270 Win — Hornady 130gr SST",
+      "color": "#a87cff",
+      "visible": true,
+      "muzzleVelocityFps": 3100,
+      "projectile": {
+        "ballisticCoefficient": 0.46,
+        "dragModel": "G1",
+        "weightGrains": 130,
+        "diameterInches": 0.277,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [{}, {}]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        }
+      },
+      "environment": {
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "relativeHumidity": 50,
+        "altitudeFeet": 0
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "7mm08-139-sst",
+      "name": "7mm-08 Rem — Hornady Superformance 139gr SST",
+      "color": "#3ee69a",
+      "visible": true,
+      "muzzleVelocityFps": 2950,
+      "projectile": {
+        "ballisticCoefficient": 0.486,
+        "dragModel": "G1",
+        "weightGrains": 139,
+        "diameterInches": 0.284,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [{}, {}]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        }
+      },
+      "environment": {
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "relativeHumidity": 50,
+        "altitudeFeet": 0
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "308-win-165-whitetail",
+      "name": ".308 Win — Hornady American Whitetail 165gr InterLock",
+      "color": "#ffd23f",
+      "visible": true,
+      "muzzleVelocityFps": 2700,
+      "projectile": {
+        "ballisticCoefficient": 0.435,
+        "dragModel": "G1",
+        "weightGrains": 165,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [{}, {}]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        }
+      },
+      "environment": {
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "relativeHumidity": 50,
+        "altitudeFeet": 0
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "30-06-165-sst",
+      "name": ".30-06 Springfield — Hornady Superformance 165gr SST",
+      "color": "#ff5db1",
+      "visible": true,
+      "muzzleVelocityFps": 2960,
+      "projectile": {
+        "ballisticCoefficient": 0.225,
+        "dragModel": "G7",
+        "weightGrains": 165,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [{}, {}]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        }
+      },
+      "environment": {
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "relativeHumidity": 50,
+        "altitudeFeet": 0
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "30-30-160-ftx",
+      "name": ".30-30 Win — Hornady LEVERevolution 160gr FTX",
+      "color": "#ff5364",
+      "visible": true,
+      "muzzleVelocityFps": 2400,
+      "projectile": {
+        "ballisticCoefficient": 0.33,
+        "dragModel": "G1",
+        "weightGrains": 160,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [{}, {}]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        }
+      },
+      "environment": {
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "relativeHumidity": 50,
+        "altitudeFeet": 0
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "7mm-rem-mag-154-sst",
+      "name": "7mm Rem Mag — Hornady Superformance 154gr SST",
+      "color": "#68e1fd",
+      "visible": true,
+      "muzzleVelocityFps": 3100,
+      "projectile": {
+        "ballisticCoefficient": 0.525,
+        "dragModel": "G1",
+        "weightGrains": 154,
+        "diameterInches": 0.284,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [{}, {}]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        }
+      },
+      "environment": {
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "relativeHumidity": 50,
+        "altitudeFeet": 0
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "300-win-mag-180-sst",
+      "name": ".300 Win Mag — Hornady Superformance 180gr SST",
+      "color": "#ef8354",
+      "visible": true,
+      "muzzleVelocityFps": 3130,
+      "projectile": {
+        "ballisticCoefficient": 0.48,
+        "dragModel": "G1",
+        "weightGrains": 180,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [{}, {}]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        }
+      },
+      "environment": {
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "relativeHumidity": 50,
+        "altitudeFeet": 0
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "300-wsm-195-bcmax",
+      "name": ".300 WSM - Winchester Supreme Long Range 195gr BC Max",
+      "color": "#8bd450",
+      "visible": true,
+      "muzzleVelocityFps": 2900,
+      "projectile": {
+        "ballisticCoefficient": 0.589,
+        "dragModel": "G1",
+        "weightGrains": 195,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [{}, {}]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        }
+      },
+      "environment": {
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "relativeHumidity": 50,
+        "altitudeFeet": 0
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    }
+  ]
+}
