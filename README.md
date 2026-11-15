@@ -57,6 +57,31 @@ Fresh installations load the bundled example configuration. It uses the same for
 
 Existing browser storage takes precedence over the bundled configuration.
 
+### Generate a configuration with AI
+
+Give an AI the standalone [JSON Schema](public/shot-file.schema.json) and describe
+the trajectories you want. The schema includes every supported trajectory field,
+units, allowed values, numeric limits, conditional requirements, defaults, and a
+complete example. It has no external schema dependencies. Vite also serves it at
+`/shot-file.schema.json` when running or hosting the app.
+
+For example, attach the schema and use this prompt, replacing the bracketed text:
+
+```text
+Generate a Ballistics Visualizer JSON configuration that conforms to the attached
+schema for [describe the trajectories and conditions you want].
+Use the schema descriptions and example to understand the options. Use unique
+trajectory IDs and the units specified in the field names. Use my supplied data;
+ask for missing essential projectile data rather than inventing specifications.
+Use defaults for unspecified conditions and omit unused optional numeric fields.
+Return only the JSON file content, without Markdown fences or commentary.
+```
+
+Save the response as a `.json` file and load it with **Import JSON**. The schema
+requires the main calculation inputs so generated files are ready to use; the
+importer also accepts unfinished configurations saved from the editor. A schema
+checks structure and limits, not the accuracy of projectile specifications.
+
 ## Development
 
 Requires Node.js 20.19 or newer and npm.

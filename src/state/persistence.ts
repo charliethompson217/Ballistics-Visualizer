@@ -1,6 +1,5 @@
 import type { CalculationQuality, Shot, ShotInputMode } from '../ballistics/types'
 import { editableShotSchema } from '../validation/shotSchema'
-import { SHOT_COLORS } from './shots'
 import type { ImperialRangeUnit, UnitSystem } from '../units/conversions'
 
 const STORAGE_KEY = 'trajectory-lab:shots:v1'
@@ -17,7 +16,7 @@ export function loadShots(): Shot[] | null {
     if (!Array.isArray(parsed)) return null
     const valid = parsed.map((shot) => editableShotSchema.safeParse(shot)).filter((result) => result.success)
     return valid.length > 0
-      ? valid.map((result, index) => ({ ...result.data, color: SHOT_COLORS[index % SHOT_COLORS.length] }))
+      ? valid.map((result) => result.data)
       : null
   } catch {
     return null

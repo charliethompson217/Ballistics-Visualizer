@@ -16,6 +16,7 @@ type IconName =
   | 'upload'
   | 'download'
   | 'lock'
+  | 'grip'
 
 interface IconProps extends SVGProps<SVGSVGElement> {
   name: IconName
@@ -39,6 +40,7 @@ export function Icon({ name, size = 18, ...props }: IconProps) {
     upload: <><path d="M12 16V4M7 9l5-5 5 5" /><path d="M5 14v5h14v-5" /></>,
     download: <><path d="M12 4v12M7 11l5 5 5-5" /><path d="M5 19h14" /></>,
     lock: <><rect x="5" y="10" width="14" height="11" rx="2" /><path d="M8 10V7a4 4 0 0 1 8 0v3" /></>,
+    grip: <><path d="M8 5h.01M16 5h.01M8 12h.01M16 12h.01M8 19h.01M16 19h.01" strokeWidth="3" /></>,
   }
 
   return (

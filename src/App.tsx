@@ -7,10 +7,11 @@ import { TrajectoryGraph } from './components/graph/TrajectoryGraph'
 import { TrajectoryTooltip } from './components/graph/TrajectoryTooltip'
 import { ShotList } from './components/shots/ShotList'
 import { BullseyeView } from './components/target/BullseyeView'
+import { PanelDivider } from './components/PanelDivider'
 import { loadCalculationQuality, loadRangeUnit, loadShots, loadShotInputMode, loadUnitSystem, saveCalculationQuality, saveRangeUnit, saveShots, saveShotInputMode, saveUnitSystem } from './state/persistence'
 import { copySharedConditions, shareConditionsAcrossShots } from './state/sharedConditions'
 import { downloadShotFile, parseShotFile } from './state/shotFiles'
-import { createShot, defaultShots } from './state/shots'
+import { createShot, defaultShots, reorderShot } from './state/shots'
 import type { ImperialRangeUnit, UnitSystem } from './units/conversions'
 import { validateShot } from './validation/shotSchema'
 
@@ -322,6 +323,8 @@ function App() {
           </div>
         </section>
 
+        {sidebarOpen && <PanelDivider />}
+
         {sidebarOpen && (
           <ShotList
             shots={shots}
@@ -332,6 +335,7 @@ function App() {
             inputMode={shotInputMode}
             onExpand={(id) => setExpandedId((current) => current === id ? null : id)}
             onChange={updateShot}
+            onReorder={(sourceId, targetId, position) => setShots((current) => reorderShot(current, sourceId, targetId, position))}
             onInputModeChange={changeShotInputMode}
             onAdd={addShot}
             onDuplicate={duplicateShot}

@@ -1,0 +1,854 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ballistics Visualizer trajectory file (version 1)",
+  "description": "Self-contained schema for generating importable, calculation-ready Ballistics Visualizer JSON. Output a JSON instance, not another schema. Include format, version and one or more shots. Every available trajectory option is documented here. All numeric values use the units in their field names regardless of UI units; omit unused optional numbers instead of null. Use unique shot IDs (checked by the importer, not expressible in standard JSON Schema). This generation schema is deliberately stricter than the importer, which also accepts unfinished editable shots: it requires the main calculation inputs and stored shooting-angle degrees. Graph layout, graph range, calculation quality, input-sharing mode and display units are application settings and are not part of trajectory files. The embedded example uses illustrative assumed inputs, not manufacturer specifications.",
+  "type": "object",
+  "properties": {
+    "format": {
+      "type": "string",
+      "const": "ballistics-visualizer",
+      "description": "Required file format marker; use exactly ballistics-visualizer."
+    },
+    "version": {
+      "type": "integer",
+      "const": 1,
+      "description": "Required file format version; use exactly 1."
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 1,
+      "description": "One or more trajectories. Each id must be unique within this array.",
+      "items": {
+        "$ref": "#/definitions/shot"
+      }
+    }
+  },
+  "required": [
+    "format",
+    "version",
+    "shots"
+  ],
+  "additionalProperties": false,
+  "definitions": {
+    "bcMeasurement": {
+      "type": "object",
+      "description": "A measured range/drop pair for BC estimation. Empty objects are allowed as inactive UI placeholders.",
+      "properties": {
+        "rangeYards": {
+          "type": "number",
+          "description": "Measured horizontal range in yards.",
+          "exclusiveMinimum": 0,
+          "maximum": 5000
+        },
+        "dropInches": {
+          "type": "number",
+          "description": "Measured drop in inches; positive below the line of sight, negative above it."
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "bcEstimation": {
+      "type": "object",
+      "description": "BC input method. Use known for an already supplied coefficient. estimated stores measurements for the UI Estimate and apply BC action; importing does not estimate BC automatically. A ballisticCoefficient must still be supplied.",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "description": "known = use the supplied BC; estimated = enable the measurement-based estimator.",
+          "enum": [
+            "known",
+            "estimated"
+          ]
+        },
+        "points": {
+          "type": "array",
+          "description": "Always include 2 to 8 entries. Use [{}, {}] when mode is known. In estimated mode the first two entries must contain both rangeYards and dropInches.",
+          "items": {
+            "$ref": "#/definitions/bcMeasurement"
+          },
+          "minItems": 2,
+          "maxItems": 8
+        }
+      },
+      "required": [
+        "mode",
+        "points"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "mode": {
+                "const": "estimated"
+              }
+            },
+            "required": [
+              "mode"
+            ]
+          },
+          "then": {
+            "properties": {
+              "points": {
+                "items": [
+                  {
+                    "required": [
+                      "rangeYards",
+                      "dropInches"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "rangeYards",
+                      "dropInches"
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "spinDrift": {
+      "type": "object",
+      "description": "Optional spin drift correction.",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Enable spin drift. Also supply projectile weightGrains, diameterInches and twistRateInches."
+        },
+        "twistRateInches": {
+          "type": "number",
+          "description": "Barrel twist length in inches per turn; for a 1:8 twist enter 8.",
+          "exclusiveMinimum": 0,
+          "maximum": 100
+        },
+        "twistDirection": {
+          "type": "string",
+          "description": "Barrel rifling twist direction.",
+          "enum": [
+            "left",
+            "right"
+          ]
+        }
+      },
+      "required": [
+        "enabled",
+        "twistDirection"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "enabled"
+            ]
+          },
+          "then": {
+            "required": [
+              "twistRateInches"
+            ]
+          }
+        }
+      ]
+    },
+    "projectile": {
+      "type": "object",
+      "description": "Projectile properties. The coefficient must match the chosen drag model. Do not invent manufacturer data or measured values; use user-supplied values or clearly identified assumptions.",
+      "properties": {
+        "ballisticCoefficient": {
+          "type": "number",
+          "description": "Dimensionless ballistic coefficient for dragModel. Required even in estimated mode; the stored BC drives the trajectory until the user applies an estimate.",
+          "exclusiveMinimum": 0,
+          "maximum": 2
+        },
+        "dragModel": {
+          "type": "string",
+          "description": "Reference drag model used by ballisticCoefficient; G1 and G7 values are not interchangeable.",
+          "enum": [
+            "G1",
+            "G7"
+          ]
+        },
+        "weightGrains": {
+          "type": "number",
+          "description": "Projectile mass in grains, not grams. Required for BC estimation or spin drift; recommended for correct energy values. Solver fallback when omitted: 168 grains.",
+          "exclusiveMinimum": 0,
+          "maximum": 2000
+        },
+        "diameterInches": {
+          "type": "number",
+          "description": "Projectile diameter in inches. Required for BC estimation or spin drift. Solver fallback when omitted: 0.308 inches.",
+          "exclusiveMinimum": 0,
+          "maximum": 2
+        },
+        "lengthInches": {
+          "type": "number",
+          "description": "Projectile length in inches; optional input for the UI stability estimate.",
+          "exclusiveMinimum": 0,
+          "maximum": 5
+        },
+        "bcEstimation": {
+          "$ref": "#/definitions/bcEstimation"
+        },
+        "spinDrift": {
+          "$ref": "#/definitions/spinDrift"
+        }
+      },
+      "required": [
+        "ballisticCoefficient",
+        "dragModel",
+        "bcEstimation",
+        "spinDrift"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "bcEstimation": {
+                "properties": {
+                  "mode": {
+                    "const": "estimated"
+                  }
+                }
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "weightGrains",
+              "diameterInches"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "spinDrift": {
+                "properties": {
+                  "enabled": {
+                    "const": true
+                  }
+                }
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "weightGrains",
+              "diameterInches"
+            ]
+          }
+        }
+      ]
+    },
+    "adjustment": {
+      "type": "object",
+      "description": "Scope corrections applied to the point of impact.",
+      "properties": {
+        "unit": {
+          "type": "string",
+          "description": "Angular unit for both corrections.",
+          "enum": [
+            "moa",
+            "mrad"
+          ]
+        },
+        "vertical": {
+          "type": "number",
+          "description": "Elevation correction in the selected unit. Positive moves impact up; negative moves it down. Omission means zero.",
+          "minimum": -1000,
+          "maximum": 1000
+        },
+        "horizontal": {
+          "type": "number",
+          "description": "Windage correction in the selected unit. Positive moves impact right; negative moves it left. Omission means zero.",
+          "minimum": -1000,
+          "maximum": 1000
+        }
+      },
+      "required": [
+        "unit"
+      ],
+      "additionalProperties": false
+    },
+    "zeroConditions": {
+      "type": "object",
+      "description": "Conditions when the scope was zeroed. current uses the shot conditions. custom sends the supplied zero-day overrides to the solver; omitted values are left to solver defaults.",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "description": "current = same as shot; custom = separate zero-day conditions.",
+          "enum": [
+            "current",
+            "custom"
+          ]
+        },
+        "atmosphereMode": {
+          "type": "string",
+          "description": "Zero-day atmosphere input method.",
+          "enum": [
+            "weather",
+            "densityAltitude"
+          ]
+        },
+        "muzzleVelocityFps": {
+          "type": "number",
+          "description": "Muzzle velocity in feet per second (fps).",
+          "exclusiveMinimum": 0,
+          "maximum": 6000
+        },
+        "temperatureF": {
+          "type": "number",
+          "description": "Air temperature in degrees Fahrenheit.",
+          "minimum": -100,
+          "maximum": 180
+        },
+        "pressureInHg": {
+          "type": "number",
+          "description": "Pressure in inches of mercury (inHg), interpreted using pressureType.",
+          "minimum": 15,
+          "maximum": 35
+        },
+        "pressureType": {
+          "type": "string",
+          "description": "absolute = local station pressure; qnh = sea-level-corrected altimeter setting. Do not supply QNH as station pressure.",
+          "enum": [
+            "absolute",
+            "qnh"
+          ],
+          "default": "absolute"
+        },
+        "relativeHumidity": {
+          "type": "number",
+          "description": "Relative humidity as a percentage from 0 to 100, not a fraction.",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "altitudeFeet": {
+          "type": "number",
+          "description": "Altitude above sea level in feet.",
+          "minimum": -1500,
+          "maximum": 30000
+        },
+        "densityAltitudeFeet": {
+          "type": "number",
+          "description": "Density altitude in feet; replaces pressure, humidity and altitude for the atmosphere calculation.",
+          "minimum": -15000,
+          "maximum": 50000
+        },
+        "powderTemperatureF": {
+          "type": "number",
+          "description": "Zero-day powder temperature in Fahrenheit, used with the measured powder velocity curve.",
+          "minimum": -100,
+          "maximum": 250
+        }
+      },
+      "required": [
+        "mode",
+        "atmosphereMode",
+        "pressureType"
+      ],
+      "additionalProperties": false,
+      "default": {
+        "mode": "current",
+        "atmosphereMode": "weather",
+        "pressureType": "absolute"
+      }
+    },
+    "scope": {
+      "type": "object",
+      "description": "Sight geometry, corrections and zero-day conditions.",
+      "properties": {
+        "zeroDistanceYards": {
+          "type": "number",
+          "description": "Scope zero distance in yards.",
+          "exclusiveMinimum": 0,
+          "maximum": 3000
+        },
+        "sightHeightInches": {
+          "type": "number",
+          "description": "Sight center height above the bore center in inches.",
+          "exclusiveMinimum": 0,
+          "maximum": 12
+        },
+        "adjustment": {
+          "$ref": "#/definitions/adjustment"
+        },
+        "zeroConditions": {
+          "$ref": "#/definitions/zeroConditions"
+        }
+      },
+      "required": [
+        "zeroDistanceYards",
+        "sightHeightInches",
+        "adjustment"
+      ],
+      "additionalProperties": false
+    },
+    "powderMeasurement": {
+      "type": "object",
+      "description": "One measured powder-temperature/muzzle-velocity pair. Empty objects are allowed as inactive UI placeholders.",
+      "properties": {
+        "temperatureF": {
+          "type": "number",
+          "description": "Ammunition/powder temperature in degrees Fahrenheit.",
+          "minimum": -100,
+          "maximum": 250
+        },
+        "velocityFps": {
+          "type": "number",
+          "description": "Muzzle velocity in feet per second (fps).",
+          "exclusiveMinimum": 0,
+          "maximum": 6000
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "powderTemperature": {
+      "type": "object",
+      "description": "Powder temperature velocity correction. none disables it. For effective linear correction supply sensitivityFpsPerDegree, referenceTemperatureF and environment.temperatureF. For curve supply at least two complete points with distinct temperatures and either currentTemperatureF or environment.temperatureF. Incomplete setups import but the correction is skipped.",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "description": "none = disabled; linear = fps per degree model; curve = interpolate measured temperature/velocity pairs.",
+          "enum": [
+            "none",
+            "linear",
+            "curve"
+          ]
+        },
+        "sensitivityFpsPerDegree": {
+          "type": "number",
+          "description": "Velocity change in fps per degree Fahrenheit. Positive means warmer ammunition produces more velocity.",
+          "minimum": -20,
+          "maximum": 20
+        },
+        "referenceTemperatureF": {
+          "type": "number",
+          "description": "Temperature in Fahrenheit at which the shot muzzle velocity was measured; used by linear mode.",
+          "minimum": -100,
+          "maximum": 250
+        },
+        "currentTemperatureF": {
+          "type": "number",
+          "description": "Current powder temperature in Fahrenheit for curve mode. If omitted, curve mode uses environment.temperatureF. Linear mode uses environment.temperatureF.",
+          "minimum": -100,
+          "maximum": 250
+        },
+        "points": {
+          "type": "array",
+          "description": "2 to 6 measured temperature/velocity pairs. Use [{}, {}] when inactive. In curve mode supply at least two complete pairs with distinct temperatures.",
+          "items": {
+            "$ref": "#/definitions/powderMeasurement"
+          },
+          "minItems": 2,
+          "maxItems": 6
+        }
+      },
+      "required": [
+        "mode",
+        "points"
+      ],
+      "additionalProperties": false,
+      "default": {
+        "mode": "none",
+        "points": [
+          {},
+          {}
+        ]
+      }
+    },
+    "environment": {
+      "type": "object",
+      "description": "Current atmospheric conditions. Files always use the units named in the fields, regardless of UI display units.",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "description": "weather = temperature, pressure, humidity and altitude; densityAltitude = a supplied density altitude.",
+          "enum": [
+            "weather",
+            "densityAltitude"
+          ],
+          "default": "weather"
+        },
+        "temperatureF": {
+          "type": "number",
+          "description": "Air temperature in Fahrenheit. Required in weather mode. Also supply for linear powder correction; curve mode can use this when currentTemperatureF is absent. Solver fallback in densityAltitude mode: 59 F.",
+          "minimum": -100,
+          "maximum": 180
+        },
+        "pressureInHg": {
+          "type": "number",
+          "description": "Pressure in inches of mercury (inHg), interpreted using pressureType.",
+          "minimum": 15,
+          "maximum": 35
+        },
+        "pressureType": {
+          "type": "string",
+          "description": "absolute = local station pressure; qnh = sea-level-corrected altimeter setting. Do not supply QNH as station pressure.",
+          "enum": [
+            "absolute",
+            "qnh"
+          ],
+          "default": "absolute"
+        },
+        "relativeHumidity": {
+          "type": "number",
+          "description": "Relative humidity as a percentage from 0 to 100, not a fraction.",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "altitudeFeet": {
+          "type": "number",
+          "description": "Altitude above sea level in feet.",
+          "minimum": -1500,
+          "maximum": 30000
+        },
+        "densityAltitudeFeet": {
+          "type": "number",
+          "description": "Density altitude in feet; replaces pressure, humidity and altitude for the atmosphere calculation.",
+          "minimum": -15000,
+          "maximum": 50000
+        },
+        "powderTemperature": {
+          "$ref": "#/definitions/powderTemperature"
+        }
+      },
+      "required": [],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "mode": {
+                "const": "densityAltitude"
+              }
+            },
+            "required": [
+              "mode"
+            ]
+          },
+          "then": {
+            "required": [
+              "densityAltitudeFeet"
+            ]
+          },
+          "else": {
+            "required": [
+              "temperatureF",
+              "pressureInHg",
+              "relativeHumidity",
+              "altitudeFeet"
+            ]
+          }
+        }
+      ]
+    },
+    "shootingAngle": {
+      "type": "object",
+      "description": "Shooting inclination. The solver uses the stored degrees value even in calculated mode; import does not recalculate it. In calculated mode include degrees = atan2(elevationDifferenceFeet, targetDistanceYards * 3) * 180 / pi, within -89 to 89.",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "description": "direct = enter degrees; calculated = store horizontal range, elevation difference and the derived degrees.",
+          "enum": [
+            "direct",
+            "calculated"
+          ]
+        },
+        "degrees": {
+          "type": "number",
+          "description": "Stored angle in degrees; positive uphill, negative downhill. Required for generated files in both modes so the imported trajectory uses the intended angle.",
+          "minimum": -89,
+          "maximum": 89
+        },
+        "targetDistanceYards": {
+          "type": "number",
+          "description": "Horizontal distance in yards, not slant/line-of-sight distance. Used to calculate the shooting angle, not to set graph range.",
+          "exclusiveMinimum": 0,
+          "maximum": 5000
+        },
+        "elevationDifferenceFeet": {
+          "type": "number",
+          "description": "Target height relative to shooter in feet; positive above, negative below.",
+          "minimum": -30000,
+          "maximum": 30000
+        }
+      },
+      "required": [
+        "mode",
+        "degrees"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "mode": {
+                "const": "calculated"
+              }
+            },
+            "required": [
+              "mode"
+            ]
+          },
+          "then": {
+            "required": [
+              "targetDistanceYards",
+              "elevationDifferenceFeet"
+            ]
+          }
+        }
+      ]
+    },
+    "windAndAngle": {
+      "type": "object",
+      "description": "Wind, shot orientation, Coriolis, rifle cant and shooting inclination.",
+      "properties": {
+        "windSpeedMph": {
+          "type": "number",
+          "description": "Horizontal wind speed in miles per hour. Use 0 for calm.",
+          "minimum": 0,
+          "maximum": 250
+        },
+        "windDirectionDegrees": {
+          "type": "number",
+          "description": "Direction the wind comes FROM relative to the shot: 0/360 = headwind, 90 = from right, 180 = tailwind, 270 = from left. Required when windReference is relative or omitted.",
+          "minimum": 0,
+          "maximum": 360
+        },
+        "windReference": {
+          "type": "string",
+          "description": "relative = wind angle relative to shot; compass = compass bearing. Compass mode needs compassWindDirectionDegrees and shotDirectionDegrees to take effect; otherwise the solver falls back to relative wind.",
+          "enum": [
+            "relative",
+            "compass"
+          ],
+          "default": "relative"
+        },
+        "compassWindDirectionDegrees": {
+          "type": "number",
+          "description": "Compass bearing the wind comes FROM. Supply together with shotDirectionDegrees for compass wind.",
+          "minimum": 0,
+          "maximum": 360
+        },
+        "verticalWindSpeedMph": {
+          "type": "number",
+          "description": "Vertical wind speed magnitude in mph; use verticalWindDirection for the sign. Omission means no vertical wind.",
+          "minimum": 0,
+          "maximum": 250
+        },
+        "verticalWindDirection": {
+          "type": "string",
+          "description": "Direction of vertical airflow.",
+          "enum": [
+            "updraft",
+            "downdraft"
+          ],
+          "default": "updraft"
+        },
+        "shotDirectionDegrees": {
+          "type": "number",
+          "description": "Compass bearing toward the target. Needed for compass wind and Coriolis.",
+          "minimum": 0,
+          "maximum": 360
+        },
+        "coriolisEnabled": {
+          "type": "boolean",
+          "description": "Enable Coriolis only when both latitudeDegrees and shotDirectionDegrees are supplied; otherwise the solver skips it.",
+          "default": false
+        },
+        "latitudeDegrees": {
+          "type": "number",
+          "description": "Signed latitude in degrees: positive north, negative south. Needed for Coriolis.",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "cantDegrees": {
+          "type": "number",
+          "description": "Rifle cant magnitude in degrees; direction is set by cantDirection. Omission means no cant.",
+          "minimum": 0,
+          "maximum": 90
+        },
+        "cantDirection": {
+          "type": "string",
+          "description": "Cant viewed from behind the rifle: clockwise = right, counterclockwise = left.",
+          "enum": [
+            "clockwise",
+            "counterclockwise"
+          ],
+          "default": "clockwise"
+        },
+        "shootingAngle": {
+          "$ref": "#/definitions/shootingAngle"
+        }
+      },
+      "required": [
+        "windSpeedMph",
+        "shootingAngle"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "windReference": {
+                "const": "compass"
+              }
+            },
+            "required": [
+              "windReference"
+            ]
+          },
+          "else": {
+            "required": [
+              "windDirectionDegrees"
+            ]
+          }
+        }
+      ]
+    },
+    "shot": {
+      "type": "object",
+      "description": "One trajectory. Use a unique id across the shots array and a nonblank name. Optional numbers should be omitted when unknown, never null or strings with units. Defaults are applied by the app on import.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Nonempty identifier, unique within this file; for example a UUID or descriptive slug. Standard JSON Schema cannot enforce uniqueness of only this property across shots; the importer checks it."
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "\\S",
+          "description": "Display name, 1 to 80 characters. Avoid leading/trailing whitespace."
+        },
+        "color": {
+          "type": "string",
+          "description": "Trajectory display color. Prefer a CSS hex color such as #ff6b2c.",
+          "examples": [
+            "#ff6b2c",
+            "#2cc5ff"
+          ]
+        },
+        "visible": {
+          "type": "boolean",
+          "description": "Whether the trajectory is shown and calculated on the graphs."
+        },
+        "muzzleVelocityFps": {
+          "type": "number",
+          "description": "Muzzle velocity in feet per second (fps).",
+          "exclusiveMinimum": 0,
+          "maximum": 6000
+        },
+        "projectile": {
+          "$ref": "#/definitions/projectile"
+        },
+        "scope": {
+          "$ref": "#/definitions/scope"
+        },
+        "environment": {
+          "$ref": "#/definitions/environment"
+        },
+        "windAndAngle": {
+          "$ref": "#/definitions/windAndAngle"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "color",
+        "visible",
+        "muzzleVelocityFps",
+        "projectile",
+        "scope",
+        "environment",
+        "windAndAngle"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "examples": [
+    {
+      "format": "ballistics-visualizer",
+      "version": 1,
+      "shots": [
+        {
+          "id": "illustrative-example",
+          "name": "Illustrative example (assumed inputs)",
+          "color": "#ff6b2c",
+          "visible": true,
+          "muzzleVelocityFps": 2700,
+          "projectile": {
+            "ballisticCoefficient": 0.45,
+            "dragModel": "G1",
+            "weightGrains": 168,
+            "diameterInches": 0.308,
+            "bcEstimation": {
+              "mode": "known",
+              "points": [
+                {},
+                {}
+              ]
+            },
+            "spinDrift": {
+              "enabled": false,
+              "twistDirection": "right"
+            }
+          },
+          "scope": {
+            "zeroDistanceYards": 100,
+            "sightHeightInches": 1.5,
+            "adjustment": {
+              "unit": "moa",
+              "vertical": 0,
+              "horizontal": 0
+            },
+            "zeroConditions": {
+              "mode": "current",
+              "atmosphereMode": "weather",
+              "pressureType": "absolute"
+            }
+          },
+          "environment": {
+            "mode": "weather",
+            "temperatureF": 59,
+            "pressureInHg": 29.92,
+            "pressureType": "absolute",
+            "relativeHumidity": 50,
+            "altitudeFeet": 0,
+            "powderTemperature": {
+              "mode": "none",
+              "points": [
+                {},
+                {}
+              ]
+            }
+          },
+          "windAndAngle": {
+            "windSpeedMph": 0,
+            "windDirectionDegrees": 90,
+            "windReference": "relative",
+            "verticalWindDirection": "updraft",
+            "coriolisEnabled": false,
+            "cantDirection": "clockwise",
+            "shootingAngle": {
+              "mode": "direct",
+              "degrees": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -15,7 +15,10 @@
         "diameterInches": 0.243,
         "bcEstimation": {
           "mode": "known",
-          "points": [{}, {}]
+          "points": [
+            {},
+            {}
+          ]
         },
         "spinDrift": {
           "enabled": false,
@@ -29,17 +32,35 @@
           "unit": "moa",
           "vertical": 0,
           "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
         }
       },
       "environment": {
+        "mode": "weather",
         "temperatureF": 59,
         "pressureInHg": 29.92,
+        "pressureType": "absolute",
         "relativeHumidity": 50,
-        "altitudeFeet": 0
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
       },
       "windAndAngle": {
         "windSpeedMph": 0,
         "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
         "shootingAngle": {
           "mode": "direct",
           "degrees": 0,
@@ -61,7 +82,10 @@
         "diameterInches": 0.264,
         "bcEstimation": {
           "mode": "known",
-          "points": [{}, {}]
+          "points": [
+            {},
+            {}
+          ]
         },
         "spinDrift": {
           "enabled": false,
@@ -75,17 +99,35 @@
           "unit": "moa",
           "vertical": 0,
           "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
         }
       },
       "environment": {
+        "mode": "weather",
         "temperatureF": 59,
         "pressureInHg": 29.92,
+        "pressureType": "absolute",
         "relativeHumidity": 50,
-        "altitudeFeet": 0
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
       },
       "windAndAngle": {
         "windSpeedMph": 0,
         "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
         "shootingAngle": {
           "mode": "direct",
           "degrees": 0,
@@ -107,7 +149,10 @@
         "diameterInches": 0.277,
         "bcEstimation": {
           "mode": "known",
-          "points": [{}, {}]
+          "points": [
+            {},
+            {}
+          ]
         },
         "spinDrift": {
           "enabled": false,
@@ -121,17 +166,35 @@
           "unit": "moa",
           "vertical": 0,
           "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
         }
       },
       "environment": {
+        "mode": "weather",
         "temperatureF": 59,
         "pressureInHg": 29.92,
+        "pressureType": "absolute",
         "relativeHumidity": 50,
-        "altitudeFeet": 0
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
       },
       "windAndAngle": {
         "windSpeedMph": 0,
         "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
         "shootingAngle": {
           "mode": "direct",
           "degrees": 0,
@@ -153,7 +216,10 @@
         "diameterInches": 0.284,
         "bcEstimation": {
           "mode": "known",
-          "points": [{}, {}]
+          "points": [
+            {},
+            {}
+          ]
         },
         "spinDrift": {
           "enabled": false,
@@ -167,17 +233,35 @@
           "unit": "moa",
           "vertical": 0,
           "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
         }
       },
       "environment": {
+        "mode": "weather",
         "temperatureF": 59,
         "pressureInHg": 29.92,
+        "pressureType": "absolute",
         "relativeHumidity": 50,
-        "altitudeFeet": 0
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
       },
       "windAndAngle": {
         "windSpeedMph": 0,
         "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
         "shootingAngle": {
           "mode": "direct",
           "degrees": 0,
@@ -199,7 +283,10 @@
         "diameterInches": 0.308,
         "bcEstimation": {
           "mode": "known",
-          "points": [{}, {}]
+          "points": [
+            {},
+            {}
+          ]
         },
         "spinDrift": {
           "enabled": false,
@@ -213,17 +300,35 @@
           "unit": "moa",
           "vertical": 0,
           "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
         }
       },
       "environment": {
+        "mode": "weather",
         "temperatureF": 59,
         "pressureInHg": 29.92,
+        "pressureType": "absolute",
         "relativeHumidity": 50,
-        "altitudeFeet": 0
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
       },
       "windAndAngle": {
         "windSpeedMph": 0,
         "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
         "shootingAngle": {
           "mode": "direct",
           "degrees": 0,
@@ -245,7 +350,10 @@
         "diameterInches": 0.308,
         "bcEstimation": {
           "mode": "known",
-          "points": [{}, {}]
+          "points": [
+            {},
+            {}
+          ]
         },
         "spinDrift": {
           "enabled": false,
@@ -259,17 +367,35 @@
           "unit": "moa",
           "vertical": 0,
           "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
         }
       },
       "environment": {
+        "mode": "weather",
         "temperatureF": 59,
         "pressureInHg": 29.92,
+        "pressureType": "absolute",
         "relativeHumidity": 50,
-        "altitudeFeet": 0
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
       },
       "windAndAngle": {
         "windSpeedMph": 0,
         "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
         "shootingAngle": {
           "mode": "direct",
           "degrees": 0,
@@ -291,7 +417,10 @@
         "diameterInches": 0.308,
         "bcEstimation": {
           "mode": "known",
-          "points": [{}, {}]
+          "points": [
+            {},
+            {}
+          ]
         },
         "spinDrift": {
           "enabled": false,
@@ -305,17 +434,35 @@
           "unit": "moa",
           "vertical": 0,
           "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
         }
       },
       "environment": {
+        "mode": "weather",
         "temperatureF": 59,
         "pressureInHg": 29.92,
+        "pressureType": "absolute",
         "relativeHumidity": 50,
-        "altitudeFeet": 0
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
       },
       "windAndAngle": {
         "windSpeedMph": 0,
         "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
         "shootingAngle": {
           "mode": "direct",
           "degrees": 0,
@@ -327,7 +474,7 @@
     {
       "id": "7mm-rem-mag-154-sst",
       "name": "7mm Rem Mag — Hornady Superformance 154gr SST",
-      "color": "#68e1fd",
+      "color": "#ff6b2c",
       "visible": true,
       "muzzleVelocityFps": 3100,
       "projectile": {
@@ -337,7 +484,10 @@
         "diameterInches": 0.284,
         "bcEstimation": {
           "mode": "known",
-          "points": [{}, {}]
+          "points": [
+            {},
+            {}
+          ]
         },
         "spinDrift": {
           "enabled": false,
@@ -351,17 +501,35 @@
           "unit": "moa",
           "vertical": 0,
           "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
         }
       },
       "environment": {
+        "mode": "weather",
         "temperatureF": 59,
         "pressureInHg": 29.92,
+        "pressureType": "absolute",
         "relativeHumidity": 50,
-        "altitudeFeet": 0
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
       },
       "windAndAngle": {
         "windSpeedMph": 0,
         "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
         "shootingAngle": {
           "mode": "direct",
           "degrees": 0,
@@ -373,7 +541,7 @@
     {
       "id": "300-win-mag-180-sst",
       "name": ".300 Win Mag — Hornady Superformance 180gr SST",
-      "color": "#ef8354",
+      "color": "#2cc5ff",
       "visible": true,
       "muzzleVelocityFps": 3130,
       "projectile": {
@@ -383,7 +551,10 @@
         "diameterInches": 0.308,
         "bcEstimation": {
           "mode": "known",
-          "points": [{}, {}]
+          "points": [
+            {},
+            {}
+          ]
         },
         "spinDrift": {
           "enabled": false,
@@ -397,17 +568,35 @@
           "unit": "moa",
           "vertical": 0,
           "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
         }
       },
       "environment": {
+        "mode": "weather",
         "temperatureF": 59,
         "pressureInHg": 29.92,
+        "pressureType": "absolute",
         "relativeHumidity": 50,
-        "altitudeFeet": 0
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
       },
       "windAndAngle": {
         "windSpeedMph": 0,
         "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
         "shootingAngle": {
           "mode": "direct",
           "degrees": 0,
@@ -419,7 +608,7 @@
     {
       "id": "300-wsm-195-bcmax",
       "name": ".300 WSM - Winchester Supreme Long Range 195gr BC Max",
-      "color": "#8bd450",
+      "color": "#a87cff",
       "visible": true,
       "muzzleVelocityFps": 2900,
       "projectile": {
@@ -429,7 +618,10 @@
         "diameterInches": 0.308,
         "bcEstimation": {
           "mode": "known",
-          "points": [{}, {}]
+          "points": [
+            {},
+            {}
+          ]
         },
         "spinDrift": {
           "enabled": false,
@@ -443,17 +635,6735 @@
           "unit": "moa",
           "vertical": 0,
           "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
         }
       },
       "environment": {
+        "mode": "weather",
         "temperatureF": 59,
         "pressureInHg": 29.92,
+        "pressureType": "absolute",
         "relativeHumidity": 50,
-        "altitudeFeet": 0
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
       },
       "windAndAngle": {
         "windSpeedMph": 0,
         "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "223-rem-55-fmj",
+      "name": ".223 Rem — 55gr FMJ (typical 16-inch)",
+      "color": "#78d5ff",
+      "visible": false,
+      "muzzleVelocityFps": 3100,
+      "projectile": {
+        "ballisticCoefficient": 0.255,
+        "dragModel": "G1",
+        "weightGrains": 55,
+        "diameterInches": 0.224,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "556-m193-55",
+      "name": "5.56 NATO — M193 55gr FMJ (20-inch)",
+      "color": "#ffb347",
+      "visible": true,
+      "muzzleVelocityFps": 3250,
+      "projectile": {
+        "ballisticCoefficient": 0.267,
+        "dragModel": "G1",
+        "weightGrains": 55,
+        "diameterInches": 0.224,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "556-m855-62",
+      "name": "5.56 NATO — M855 62gr FMJ (20-inch)",
+      "color": "#6dd5a7",
+      "visible": false,
+      "muzzleVelocityFps": 3050,
+      "projectile": {
+        "ballisticCoefficient": 0.304,
+        "dragModel": "G1",
+        "weightGrains": 62,
+        "diameterInches": 0.224,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "556-mk262-77",
+      "name": "5.56 NATO — Mk 262 77gr OTM (20-inch)",
+      "color": "#e6a0ff",
+      "visible": false,
+      "muzzleVelocityFps": 2700,
+      "projectile": {
+        "ballisticCoefficient": 0.362,
+        "dragModel": "G1",
+        "weightGrains": 77,
+        "diameterInches": 0.224,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "545x39-7n6-53",
+      "name": "5.45×39mm — 7N6 53gr FMJ (AK-74)",
+      "color": "#f77f88",
+      "visible": false,
+      "muzzleVelocityFps": 2950,
+      "projectile": {
+        "ballisticCoefficient": 0.285,
+        "dragModel": "G1",
+        "weightGrains": 53,
+        "diameterInches": 0.221,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "762x39-123-ppu",
+      "name": "7.62×39mm — PPU 123gr FMJ (AK)",
+      "color": "#b6e46b",
+      "visible": true,
+      "muzzleVelocityFps": 2350,
+      "projectile": {
+        "ballisticCoefficient": 0.271,
+        "dragModel": "G1",
+        "weightGrains": 123,
+        "diameterInches": 0.311,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "762x51-m80-147",
+      "name": "7.62×51 NATO — M80 147gr FMJ (22-inch)",
+      "color": "#f6ce54",
+      "visible": true,
+      "muzzleVelocityFps": 2750,
+      "projectile": {
+        "ballisticCoefficient": 0.398,
+        "dragModel": "G1",
+        "weightGrains": 147,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "762x54r-148-lps",
+      "name": "7.62×54R — 148gr LPS FMJ (typical)",
+      "color": "#e68a61",
+      "visible": false,
+      "muzzleVelocityFps": 2800,
+      "projectile": {
+        "ballisticCoefficient": 0.4,
+        "dragModel": "G1",
+        "weightGrains": 148,
+        "diameterInches": 0.311,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "300blk-125-fiocchi",
+      "name": ".300 AAC Blackout — Fiocchi 125gr Super Shock Tip",
+      "color": "#82a6fb",
+      "visible": false,
+      "muzzleVelocityFps": 2200,
+      "projectile": {
+        "ballisticCoefficient": 0.305,
+        "dragModel": "G1",
+        "weightGrains": 125,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "300blk-220-fiocchi",
+      "name": ".300 AAC Blackout — Fiocchi 220gr SMK subsonic",
+      "color": "#82c5cb",
+      "visible": false,
+      "muzzleVelocityFps": 1020,
+      "projectile": {
+        "ballisticCoefficient": 0.608,
+        "dragModel": "G1",
+        "weightGrains": 220,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "9x19-124-nato",
+      "name": "9×19mm NATO — 124gr FMJ (service pistol)",
+      "color": "#e896c7",
+      "visible": false,
+      "muzzleVelocityFps": 1200,
+      "projectile": {
+        "ballisticCoefficient": 0.155,
+        "dragModel": "G1",
+        "weightGrains": 124,
+        "diameterInches": 0.355,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "50bmg-m33-660",
+      "name": "12.7×99mm NATO (.50 BMG) — M33 660gr ball",
+      "color": "#cfa77c",
+      "visible": false,
+      "muzzleVelocityFps": 2910,
+      "projectile": {
+        "ballisticCoefficient": 0.66,
+        "dragModel": "G1",
+        "weightGrains": 660,
+        "diameterInches": 0.51,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-17-mach2",
+      "name": ".17 Mach 2 — 17gr V-MAX rimfire (representative)",
+      "color": "#fb7185",
+      "visible": false,
+      "muzzleVelocityFps": 2100,
+      "projectile": {
+        "ballisticCoefficient": 0.125,
+        "dragModel": "G1",
+        "weightGrains": 17,
+        "diameterInches": 0.172,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-17-hmr",
+      "name": ".17 HMR — 17gr V-MAX rimfire (representative)",
+      "color": "#38bdf8",
+      "visible": false,
+      "muzzleVelocityFps": 2550,
+      "projectile": {
+        "ballisticCoefficient": 0.125,
+        "dragModel": "G1",
+        "weightGrains": 17,
+        "diameterInches": 0.172,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-22-lr",
+      "name": ".22 LR — 40gr lead round nose (representative)",
+      "color": "#a78bfa",
+      "visible": false,
+      "muzzleVelocityFps": 1200,
+      "projectile": {
+        "ballisticCoefficient": 0.125,
+        "dragModel": "G1",
+        "weightGrains": 40,
+        "diameterInches": 0.223,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-22-wmr",
+      "name": ".22 WMR — 40gr JHP rimfire (representative)",
+      "color": "#34d399",
+      "visible": false,
+      "muzzleVelocityFps": 1875,
+      "projectile": {
+        "ballisticCoefficient": 0.115,
+        "dragModel": "G1",
+        "weightGrains": 40,
+        "diameterInches": 0.224,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-17-hornet",
+      "name": ".17 Hornet — 20gr V-MAX (representative)",
+      "color": "#fbbf24",
+      "visible": false,
+      "muzzleVelocityFps": 3650,
+      "projectile": {
+        "ballisticCoefficient": 0.185,
+        "dragModel": "G1",
+        "weightGrains": 20,
+        "diameterInches": 0.172,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-22-hornet",
+      "name": ".22 Hornet — 45gr soft point (representative)",
+      "color": "#f472b6",
+      "visible": false,
+      "muzzleVelocityFps": 2690,
+      "projectile": {
+        "ballisticCoefficient": 0.202,
+        "dragModel": "G1",
+        "weightGrains": 45,
+        "diameterInches": 0.224,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-204-ruger",
+      "name": ".204 Ruger — 40gr V-MAX (representative)",
+      "color": "#2dd4bf",
+      "visible": false,
+      "muzzleVelocityFps": 3900,
+      "projectile": {
+        "ballisticCoefficient": 0.275,
+        "dragModel": "G1",
+        "weightGrains": 40,
+        "diameterInches": 0.204,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-218-bee",
+      "name": ".218 Bee — 46gr soft point (representative)",
+      "color": "#c084fc",
+      "visible": false,
+      "muzzleVelocityFps": 2760,
+      "projectile": {
+        "ballisticCoefficient": 0.19,
+        "dragModel": "G1",
+        "weightGrains": 46,
+        "diameterInches": 0.224,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-222-rem",
+      "name": ".222 Remington — 50gr soft point (representative)",
+      "color": "#fb923c",
+      "visible": false,
+      "muzzleVelocityFps": 3140,
+      "projectile": {
+        "ballisticCoefficient": 0.24,
+        "dragModel": "G1",
+        "weightGrains": 50,
+        "diameterInches": 0.224,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-220-swift",
+      "name": ".220 Swift — 55gr soft point (representative)",
+      "color": "#94a3b8",
+      "visible": false,
+      "muzzleVelocityFps": 3800,
+      "projectile": {
+        "ballisticCoefficient": 0.255,
+        "dragModel": "G1",
+        "weightGrains": 55,
+        "diameterInches": 0.224,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-22-250",
+      "name": ".22-250 Remington — 55gr soft point (representative)",
+      "color": "#84cc16",
+      "visible": false,
+      "muzzleVelocityFps": 3680,
+      "projectile": {
+        "ballisticCoefficient": 0.255,
+        "dragModel": "G1",
+        "weightGrains": 55,
+        "diameterInches": 0.224,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-224-valkyrie",
+      "name": ".224 Valkyrie — 90gr match BTHP (representative)",
+      "color": "#60a5fa",
+      "visible": false,
+      "muzzleVelocityFps": 2700,
+      "projectile": {
+        "ballisticCoefficient": 0.51,
+        "dragModel": "G1",
+        "weightGrains": 90,
+        "diameterInches": 0.224,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-6mm-arc",
+      "name": "6mm ARC — 108gr match ELD (representative)",
+      "color": "#fb7185",
+      "visible": false,
+      "muzzleVelocityFps": 2750,
+      "projectile": {
+        "ballisticCoefficient": 0.536,
+        "dragModel": "G1",
+        "weightGrains": 108,
+        "diameterInches": 0.243,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-6mm-creedmoor",
+      "name": "6mm Creedmoor — 108gr match ELD (representative)",
+      "color": "#38bdf8",
+      "visible": false,
+      "muzzleVelocityFps": 2960,
+      "projectile": {
+        "ballisticCoefficient": 0.536,
+        "dragModel": "G1",
+        "weightGrains": 108,
+        "diameterInches": 0.243,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-6mm-rem",
+      "name": "6mm Remington — 100gr soft point (representative)",
+      "color": "#a78bfa",
+      "visible": false,
+      "muzzleVelocityFps": 3100,
+      "projectile": {
+        "ballisticCoefficient": 0.355,
+        "dragModel": "G1",
+        "weightGrains": 100,
+        "diameterInches": 0.243,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-25-06",
+      "name": ".25-06 Remington — 117gr soft point (representative)",
+      "color": "#34d399",
+      "visible": false,
+      "muzzleVelocityFps": 3000,
+      "projectile": {
+        "ballisticCoefficient": 0.39,
+        "dragModel": "G1",
+        "weightGrains": 117,
+        "diameterInches": 0.257,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-257-roberts",
+      "name": ".257 Roberts — 117gr soft point (representative)",
+      "color": "#fbbf24",
+      "visible": false,
+      "muzzleVelocityFps": 2780,
+      "projectile": {
+        "ballisticCoefficient": 0.39,
+        "dragModel": "G1",
+        "weightGrains": 117,
+        "diameterInches": 0.257,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-257-weatherby",
+      "name": ".257 Weatherby Magnum — 115gr spitzer (representative)",
+      "color": "#f472b6",
+      "visible": false,
+      "muzzleVelocityFps": 3400,
+      "projectile": {
+        "ballisticCoefficient": 0.43,
+        "dragModel": "G1",
+        "weightGrains": 115,
+        "diameterInches": 0.257,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-65-grendel",
+      "name": "6.5 Grendel — 123gr match BTHP (representative)",
+      "color": "#2dd4bf",
+      "visible": false,
+      "muzzleVelocityFps": 2580,
+      "projectile": {
+        "ballisticCoefficient": 0.506,
+        "dragModel": "G1",
+        "weightGrains": 123,
+        "diameterInches": 0.264,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-65-prc",
+      "name": "6.5 PRC — 143gr ELD-X (representative)",
+      "color": "#c084fc",
+      "visible": false,
+      "muzzleVelocityFps": 2960,
+      "projectile": {
+        "ballisticCoefficient": 0.625,
+        "dragModel": "G1",
+        "weightGrains": 143,
+        "diameterInches": 0.264,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-65x55",
+      "name": "6.5×55mm Swedish — 140gr soft point (representative)",
+      "color": "#fb923c",
+      "visible": false,
+      "muzzleVelocityFps": 2650,
+      "projectile": {
+        "ballisticCoefficient": 0.49,
+        "dragModel": "G1",
+        "weightGrains": 140,
+        "diameterInches": 0.264,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-260-rem",
+      "name": ".260 Remington — 140gr match BTHP (representative)",
+      "color": "#94a3b8",
+      "visible": false,
+      "muzzleVelocityFps": 2750,
+      "projectile": {
+        "ballisticCoefficient": 0.53,
+        "dragModel": "G1",
+        "weightGrains": 140,
+        "diameterInches": 0.264,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-270-wsm",
+      "name": ".270 WSM — 150gr spitzer (representative)",
+      "color": "#84cc16",
+      "visible": false,
+      "muzzleVelocityFps": 3120,
+      "projectile": {
+        "ballisticCoefficient": 0.49,
+        "dragModel": "G1",
+        "weightGrains": 150,
+        "diameterInches": 0.277,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-68-spc",
+      "name": "6.8 SPC — 115gr OTM (representative)",
+      "color": "#60a5fa",
+      "visible": false,
+      "muzzleVelocityFps": 2600,
+      "projectile": {
+        "ballisticCoefficient": 0.34,
+        "dragModel": "G1",
+        "weightGrains": 115,
+        "diameterInches": 0.277,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-277-fury",
+      "name": ".277 SIG Fury (6.8×51mm) — 135gr (representative)",
+      "color": "#fb7185",
+      "visible": false,
+      "muzzleVelocityFps": 3000,
+      "projectile": {
+        "ballisticCoefficient": 0.47,
+        "dragModel": "G1",
+        "weightGrains": 135,
+        "diameterInches": 0.277,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-280-rem",
+      "name": ".280 Remington — 140gr spitzer (representative)",
+      "color": "#38bdf8",
+      "visible": false,
+      "muzzleVelocityFps": 3000,
+      "projectile": {
+        "ballisticCoefficient": 0.485,
+        "dragModel": "G1",
+        "weightGrains": 140,
+        "diameterInches": 0.284,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-280-ai",
+      "name": ".280 Ackley Improved — 160gr spitzer (representative)",
+      "color": "#a78bfa",
+      "visible": false,
+      "muzzleVelocityFps": 2950,
+      "projectile": {
+        "ballisticCoefficient": 0.53,
+        "dragModel": "G1",
+        "weightGrains": 160,
+        "diameterInches": 0.284,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-7mm-prc",
+      "name": "7mm PRC — 175gr long-range ELD (representative)",
+      "color": "#34d399",
+      "visible": false,
+      "muzzleVelocityFps": 3000,
+      "projectile": {
+        "ballisticCoefficient": 0.69,
+        "dragModel": "G1",
+        "weightGrains": 175,
+        "diameterInches": 0.284,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-7mm-saum",
+      "name": "7mm Remington SAUM — 160gr spitzer (representative)",
+      "color": "#fbbf24",
+      "visible": false,
+      "muzzleVelocityFps": 2950,
+      "projectile": {
+        "ballisticCoefficient": 0.53,
+        "dragModel": "G1",
+        "weightGrains": 160,
+        "diameterInches": 0.284,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-7x57",
+      "name": "7×57mm Mauser — 140gr spitzer (representative)",
+      "color": "#f472b6",
+      "visible": false,
+      "muzzleVelocityFps": 2660,
+      "projectile": {
+        "ballisticCoefficient": 0.43,
+        "dragModel": "G1",
+        "weightGrains": 140,
+        "diameterInches": 0.284,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-303-british",
+      "name": ".303 British — 174gr FMJ (representative)",
+      "color": "#2dd4bf",
+      "visible": false,
+      "muzzleVelocityFps": 2440,
+      "projectile": {
+        "ballisticCoefficient": 0.467,
+        "dragModel": "G1",
+        "weightGrains": 174,
+        "diameterInches": 0.311,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-30-carbine",
+      "name": ".30 Carbine — 110gr FMJ (representative)",
+      "color": "#c084fc",
+      "visible": false,
+      "muzzleVelocityFps": 1990,
+      "projectile": {
+        "ballisticCoefficient": 0.166,
+        "dragModel": "G1",
+        "weightGrains": 110,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-300-savage",
+      "name": ".300 Savage — 150gr soft point (representative)",
+      "color": "#fb923c",
+      "visible": false,
+      "muzzleVelocityFps": 2630,
+      "projectile": {
+        "ballisticCoefficient": 0.39,
+        "dragModel": "G1",
+        "weightGrains": 150,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-300-prc",
+      "name": ".300 PRC — 225gr ELD Match (representative)",
+      "color": "#94a3b8",
+      "visible": false,
+      "muzzleVelocityFps": 2810,
+      "projectile": {
+        "ballisticCoefficient": 0.777,
+        "dragModel": "G1",
+        "weightGrains": 225,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-300-rum",
+      "name": ".300 Remington Ultra Magnum — 180gr spitzer (representative)",
+      "color": "#84cc16",
+      "visible": false,
+      "muzzleVelocityFps": 3250,
+      "projectile": {
+        "ballisticCoefficient": 0.48,
+        "dragModel": "G1",
+        "weightGrains": 180,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-300-weatherby",
+      "name": ".300 Weatherby Magnum — 180gr spitzer (representative)",
+      "color": "#60a5fa",
+      "visible": false,
+      "muzzleVelocityFps": 3200,
+      "projectile": {
+        "ballisticCoefficient": 0.48,
+        "dragModel": "G1",
+        "weightGrains": 180,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-300-norma",
+      "name": ".300 Norma Magnum — 230gr match hybrid (representative)",
+      "color": "#fb7185",
+      "visible": false,
+      "muzzleVelocityFps": 2950,
+      "projectile": {
+        "ballisticCoefficient": 0.74,
+        "dragModel": "G1",
+        "weightGrains": 230,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-300-hamr",
+      "name": ".300 HAM’R — 125gr soft point (representative)",
+      "color": "#38bdf8",
+      "visible": false,
+      "muzzleVelocityFps": 2500,
+      "projectile": {
+        "ballisticCoefficient": 0.27,
+        "dragModel": "G1",
+        "weightGrains": 125,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-762x25",
+      "name": "7.62×25mm Tokarev — 85gr FMJ pistol (representative)",
+      "color": "#a78bfa",
+      "visible": false,
+      "muzzleVelocityFps": 1500,
+      "projectile": {
+        "ballisticCoefficient": 0.15,
+        "dragModel": "G1",
+        "weightGrains": 85,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-762x38r",
+      "name": "7.62×38mmR Nagant — 98gr FMJ pistol (representative)",
+      "color": "#34d399",
+      "visible": false,
+      "muzzleVelocityFps": 1000,
+      "projectile": {
+        "ballisticCoefficient": 0.17,
+        "dragModel": "G1",
+        "weightGrains": 98,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-792x57",
+      "name": "7.92×57mm Mauser (8mm Mauser) — 198gr FMJ (representative)",
+      "color": "#fbbf24",
+      "visible": false,
+      "muzzleVelocityFps": 2490,
+      "projectile": {
+        "ballisticCoefficient": 0.55,
+        "dragModel": "G1",
+        "weightGrains": 198,
+        "diameterInches": 0.323,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-8mm-rem-mag",
+      "name": "8mm Remington Magnum — 185gr spitzer (representative)",
+      "color": "#f472b6",
+      "visible": false,
+      "muzzleVelocityFps": 3080,
+      "projectile": {
+        "ballisticCoefficient": 0.46,
+        "dragModel": "G1",
+        "weightGrains": 185,
+        "diameterInches": 0.323,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-338-federal",
+      "name": ".338 Federal — 200gr soft point (representative)",
+      "color": "#2dd4bf",
+      "visible": false,
+      "muzzleVelocityFps": 2700,
+      "projectile": {
+        "ballisticCoefficient": 0.414,
+        "dragModel": "G1",
+        "weightGrains": 200,
+        "diameterInches": 0.338,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-338-lapua",
+      "name": ".338 Lapua Magnum — 250gr match BTHP (representative)",
+      "color": "#c084fc",
+      "visible": false,
+      "muzzleVelocityFps": 2950,
+      "projectile": {
+        "ballisticCoefficient": 0.675,
+        "dragModel": "G1",
+        "weightGrains": 250,
+        "diameterInches": 0.338,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-338-norma",
+      "name": ".338 Norma Magnum — 300gr match BTHP (representative)",
+      "color": "#fb923c",
+      "visible": false,
+      "muzzleVelocityFps": 2720,
+      "projectile": {
+        "ballisticCoefficient": 0.768,
+        "dragModel": "G1",
+        "weightGrains": 300,
+        "diameterInches": 0.338,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-338-win-mag",
+      "name": ".338 Winchester Magnum — 225gr spitzer (representative)",
+      "color": "#94a3b8",
+      "visible": false,
+      "muzzleVelocityFps": 2800,
+      "projectile": {
+        "ballisticCoefficient": 0.454,
+        "dragModel": "G1",
+        "weightGrains": 225,
+        "diameterInches": 0.338,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-338-rum",
+      "name": ".338 Remington Ultra Magnum — 250gr spitzer (representative)",
+      "color": "#84cc16",
+      "visible": false,
+      "muzzleVelocityFps": 2860,
+      "projectile": {
+        "ballisticCoefficient": 0.575,
+        "dragModel": "G1",
+        "weightGrains": 250,
+        "diameterInches": 0.338,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-35-whelen",
+      "name": ".35 Whelen — 200gr soft point (representative)",
+      "color": "#60a5fa",
+      "visible": false,
+      "muzzleVelocityFps": 2675,
+      "projectile": {
+        "ballisticCoefficient": 0.3,
+        "dragModel": "G1",
+        "weightGrains": 200,
+        "diameterInches": 0.358,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-350-legend",
+      "name": ".350 Legend — 180gr soft point (representative)",
+      "color": "#fb7185",
+      "visible": false,
+      "muzzleVelocityFps": 2100,
+      "projectile": {
+        "ballisticCoefficient": 0.245,
+        "dragModel": "G1",
+        "weightGrains": 180,
+        "diameterInches": 0.357,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-358-win",
+      "name": ".358 Winchester — 200gr soft point (representative)",
+      "color": "#38bdf8",
+      "visible": false,
+      "muzzleVelocityFps": 2475,
+      "projectile": {
+        "ballisticCoefficient": 0.3,
+        "dragModel": "G1",
+        "weightGrains": 200,
+        "diameterInches": 0.358,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-375-hh",
+      "name": ".375 H&H Magnum — 270gr soft point (representative)",
+      "color": "#a78bfa",
+      "visible": false,
+      "muzzleVelocityFps": 2690,
+      "projectile": {
+        "ballisticCoefficient": 0.38,
+        "dragModel": "G1",
+        "weightGrains": 270,
+        "diameterInches": 0.375,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-375-ruger",
+      "name": ".375 Ruger — 270gr soft point (representative)",
+      "color": "#34d399",
+      "visible": false,
+      "muzzleVelocityFps": 2840,
+      "projectile": {
+        "ballisticCoefficient": 0.38,
+        "dragModel": "G1",
+        "weightGrains": 270,
+        "diameterInches": 0.375,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-375-cheytac",
+      "name": ".375 CheyTac — 350gr match solid (representative)",
+      "color": "#fbbf24",
+      "visible": false,
+      "muzzleVelocityFps": 3000,
+      "projectile": {
+        "ballisticCoefficient": 0.96,
+        "dragModel": "G1",
+        "weightGrains": 350,
+        "diameterInches": 0.375,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-408-cheytac",
+      "name": ".408 CheyTac — 419gr match solid (representative)",
+      "color": "#f472b6",
+      "visible": false,
+      "muzzleVelocityFps": 2900,
+      "projectile": {
+        "ballisticCoefficient": 0.94,
+        "dragModel": "G1",
+        "weightGrains": 419,
+        "diameterInches": 0.408,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-416-barrett",
+      "name": ".416 Barrett — 398gr match solid (representative)",
+      "color": "#2dd4bf",
+      "visible": false,
+      "muzzleVelocityFps": 3150,
+      "projectile": {
+        "ballisticCoefficient": 0.95,
+        "dragModel": "G1",
+        "weightGrains": 398,
+        "diameterInches": 0.416,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-416-rigby",
+      "name": ".416 Rigby — 400gr soft point (representative)",
+      "color": "#c084fc",
+      "visible": false,
+      "muzzleVelocityFps": 2400,
+      "projectile": {
+        "ballisticCoefficient": 0.36,
+        "dragModel": "G1",
+        "weightGrains": 400,
+        "diameterInches": 0.416,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-444-marlin",
+      "name": ".444 Marlin — 240gr soft point (representative)",
+      "color": "#fb923c",
+      "visible": false,
+      "muzzleVelocityFps": 2350,
+      "projectile": {
+        "ballisticCoefficient": 0.205,
+        "dragModel": "G1",
+        "weightGrains": 240,
+        "diameterInches": 0.429,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-45-70",
+      "name": ".45-70 Government — 300gr flat point (representative)",
+      "color": "#94a3b8",
+      "visible": false,
+      "muzzleVelocityFps": 1850,
+      "projectile": {
+        "ballisticCoefficient": 0.197,
+        "dragModel": "G1",
+        "weightGrains": 300,
+        "diameterInches": 0.458,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-450-bushmaster",
+      "name": ".450 Bushmaster — 250gr FTX (representative)",
+      "color": "#84cc16",
+      "visible": false,
+      "muzzleVelocityFps": 2200,
+      "projectile": {
+        "ballisticCoefficient": 0.21,
+        "dragModel": "G1",
+        "weightGrains": 250,
+        "diameterInches": 0.452,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-458-socom",
+      "name": ".458 SOCOM — 300gr JHP (representative)",
+      "color": "#60a5fa",
+      "visible": false,
+      "muzzleVelocityFps": 1900,
+      "projectile": {
+        "ballisticCoefficient": 0.22,
+        "dragModel": "G1",
+        "weightGrains": 300,
+        "diameterInches": 0.458,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-458-win-mag",
+      "name": ".458 Winchester Magnum — 500gr soft point (representative)",
+      "color": "#fb7185",
+      "visible": false,
+      "muzzleVelocityFps": 2150,
+      "projectile": {
+        "ballisticCoefficient": 0.3,
+        "dragModel": "G1",
+        "weightGrains": 500,
+        "diameterInches": 0.458,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-50-beowulf",
+      "name": ".50 Beowulf — 325gr flat point (representative)",
+      "color": "#38bdf8",
+      "visible": false,
+      "muzzleVelocityFps": 1800,
+      "projectile": {
+        "ballisticCoefficient": 0.18,
+        "dragModel": "G1",
+        "weightGrains": 325,
+        "diameterInches": 0.5,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-50-action-express",
+      "name": ".50 Action Express — 300gr JHP pistol (representative)",
+      "color": "#a78bfa",
+      "visible": false,
+      "muzzleVelocityFps": 1475,
+      "projectile": {
+        "ballisticCoefficient": 0.17,
+        "dragModel": "G1",
+        "weightGrains": 300,
+        "diameterInches": 0.5,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-5-7x28",
+      "name": "5.7×28mm — 40gr FMJ pistol (representative)",
+      "color": "#34d399",
+      "visible": false,
+      "muzzleVelocityFps": 1700,
+      "projectile": {
+        "ballisticCoefficient": 0.165,
+        "dragModel": "G1",
+        "weightGrains": 40,
+        "diameterInches": 0.224,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-46x30",
+      "name": "4.6×30mm — 40gr FMJ PDW (representative)",
+      "color": "#fbbf24",
+      "visible": false,
+      "muzzleVelocityFps": 1900,
+      "projectile": {
+        "ballisticCoefficient": 0.15,
+        "dragModel": "G1",
+        "weightGrains": 40,
+        "diameterInches": 0.183,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-380-acp",
+      "name": ".380 ACP — 95gr FMJ pistol (representative)",
+      "color": "#f472b6",
+      "visible": false,
+      "muzzleVelocityFps": 950,
+      "projectile": {
+        "ballisticCoefficient": 0.125,
+        "dragModel": "G1",
+        "weightGrains": 95,
+        "diameterInches": 0.355,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-32-acp",
+      "name": ".32 ACP — 71gr FMJ pistol (representative)",
+      "color": "#2dd4bf",
+      "visible": false,
+      "muzzleVelocityFps": 905,
+      "projectile": {
+        "ballisticCoefficient": 0.1,
+        "dragModel": "G1",
+        "weightGrains": 71,
+        "diameterInches": 0.312,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-25-acp",
+      "name": ".25 ACP — 50gr FMJ pistol (representative)",
+      "color": "#c084fc",
+      "visible": false,
+      "muzzleVelocityFps": 760,
+      "projectile": {
+        "ballisticCoefficient": 0.09,
+        "dragModel": "G1",
+        "weightGrains": 50,
+        "diameterInches": 0.251,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-38-special",
+      "name": ".38 Special — 158gr LRN revolver (representative)",
+      "color": "#fb923c",
+      "visible": false,
+      "muzzleVelocityFps": 850,
+      "projectile": {
+        "ballisticCoefficient": 0.175,
+        "dragModel": "G1",
+        "weightGrains": 158,
+        "diameterInches": 0.357,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-357-mag",
+      "name": ".357 Magnum — 158gr JSP revolver (representative)",
+      "color": "#94a3b8",
+      "visible": false,
+      "muzzleVelocityFps": 1250,
+      "projectile": {
+        "ballisticCoefficient": 0.195,
+        "dragModel": "G1",
+        "weightGrains": 158,
+        "diameterInches": 0.357,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-357-sig",
+      "name": ".357 SIG — 125gr FMJ pistol (representative)",
+      "color": "#84cc16",
+      "visible": false,
+      "muzzleVelocityFps": 1350,
+      "projectile": {
+        "ballisticCoefficient": 0.15,
+        "dragModel": "G1",
+        "weightGrains": 125,
+        "diameterInches": 0.355,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-40-sw",
+      "name": ".40 S&W — 180gr FMJ pistol (representative)",
+      "color": "#60a5fa",
+      "visible": false,
+      "muzzleVelocityFps": 1000,
+      "projectile": {
+        "ballisticCoefficient": 0.175,
+        "dragModel": "G1",
+        "weightGrains": 180,
+        "diameterInches": 0.4,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-10mm-auto",
+      "name": "10mm Auto — 180gr FMJ pistol (representative)",
+      "color": "#fb7185",
+      "visible": false,
+      "muzzleVelocityFps": 1200,
+      "projectile": {
+        "ballisticCoefficient": 0.185,
+        "dragModel": "G1",
+        "weightGrains": 180,
+        "diameterInches": 0.4,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-45-acp",
+      "name": ".45 ACP — 230gr FMJ pistol (representative)",
+      "color": "#38bdf8",
+      "visible": false,
+      "muzzleVelocityFps": 850,
+      "projectile": {
+        "ballisticCoefficient": 0.195,
+        "dragModel": "G1",
+        "weightGrains": 230,
+        "diameterInches": 0.451,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-45-colt",
+      "name": ".45 Colt — 255gr lead flat nose (representative)",
+      "color": "#a78bfa",
+      "visible": false,
+      "muzzleVelocityFps": 860,
+      "projectile": {
+        "ballisticCoefficient": 0.185,
+        "dragModel": "G1",
+        "weightGrains": 255,
+        "diameterInches": 0.452,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-44-special",
+      "name": ".44 Special — 246gr lead round nose (representative)",
+      "color": "#34d399",
+      "visible": false,
+      "muzzleVelocityFps": 760,
+      "projectile": {
+        "ballisticCoefficient": 0.175,
+        "dragModel": "G1",
+        "weightGrains": 246,
+        "diameterInches": 0.429,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-44-mag",
+      "name": ".44 Magnum — 240gr JSP revolver (representative)",
+      "color": "#fbbf24",
+      "visible": false,
+      "muzzleVelocityFps": 1350,
+      "projectile": {
+        "ballisticCoefficient": 0.205,
+        "dragModel": "G1",
+        "weightGrains": 240,
+        "diameterInches": 0.429,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-454-casull",
+      "name": ".454 Casull — 300gr JSP revolver (representative)",
+      "color": "#f472b6",
+      "visible": false,
+      "muzzleVelocityFps": 1650,
+      "projectile": {
+        "ballisticCoefficient": 0.22,
+        "dragModel": "G1",
+        "weightGrains": 300,
+        "diameterInches": 0.452,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-460-sw",
+      "name": ".460 S&W Magnum — 200gr FTX revolver (representative)",
+      "color": "#2dd4bf",
+      "visible": false,
+      "muzzleVelocityFps": 2200,
+      "projectile": {
+        "ballisticCoefficient": 0.2,
+        "dragModel": "G1",
+        "weightGrains": 200,
+        "diameterInches": 0.452,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-500-sw",
+      "name": ".500 S&W Magnum — 350gr JHP revolver (representative)",
+      "color": "#c084fc",
+      "visible": false,
+      "muzzleVelocityFps": 1650,
+      "projectile": {
+        "ballisticCoefficient": 0.215,
+        "dragModel": "G1",
+        "weightGrains": 350,
+        "diameterInches": 0.5,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-9x18",
+      "name": "9×18mm Makarov — 95gr FMJ pistol (representative)",
+      "color": "#fb923c",
+      "visible": false,
+      "muzzleVelocityFps": 1000,
+      "projectile": {
+        "ballisticCoefficient": 0.115,
+        "dragModel": "G1",
+        "weightGrains": 95,
+        "diameterInches": 0.365,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-9x21",
+      "name": "9×21mm IMI — 124gr FMJ pistol (representative)",
+      "color": "#94a3b8",
+      "visible": false,
+      "muzzleVelocityFps": 1200,
+      "projectile": {
+        "ballisticCoefficient": 0.145,
+        "dragModel": "G1",
+        "weightGrains": 124,
+        "diameterInches": 0.355,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-9x23",
+      "name": "9×23mm Winchester — 124gr FMJ pistol (representative)",
+      "color": "#84cc16",
+      "visible": false,
+      "muzzleVelocityFps": 1450,
+      "projectile": {
+        "ballisticCoefficient": 0.145,
+        "dragModel": "G1",
+        "weightGrains": 124,
+        "diameterInches": 0.355,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-7mmx64",
+      "name": "7×64mm Brenneke — 150gr spitzer (representative)",
+      "color": "#60a5fa",
+      "visible": false,
+      "muzzleVelocityFps": 2820,
+      "projectile": {
+        "ballisticCoefficient": 0.47,
+        "dragModel": "G1",
+        "weightGrains": 150,
+        "diameterInches": 0.284,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-6x45",
+      "name": "6×45mm — 85gr spitzer (representative)",
+      "color": "#fb7185",
+      "visible": false,
+      "muzzleVelocityFps": 2750,
+      "projectile": {
+        "ballisticCoefficient": 0.35,
+        "dragModel": "G1",
+        "weightGrains": 85,
+        "diameterInches": 0.243,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-762x40",
+      "name": "7.62×40mm WT — 125gr spitzer (representative)",
+      "color": "#38bdf8",
+      "visible": false,
+      "muzzleVelocityFps": 2400,
+      "projectile": {
+        "ballisticCoefficient": 0.31,
+        "dragModel": "G1",
+        "weightGrains": 125,
+        "diameterInches": 0.308,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-12ga-slug",
+      "name": "12 gauge — 1 oz rifled slug — 437.5gr foster-style slug (representative)",
+      "color": "#a78bfa",
+      "visible": false,
+      "muzzleVelocityFps": 1600,
+      "projectile": {
+        "ballisticCoefficient": 0.11,
+        "dragModel": "G1",
+        "weightGrains": 437.5,
+        "diameterInches": 0.729,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
+        "shootingAngle": {
+          "mode": "direct",
+          "degrees": 0,
+          "targetDistanceYards": 100,
+          "elevationDifferenceFeet": 0
+        }
+      }
+    },
+    {
+      "id": "representative-20ga-slug",
+      "name": "20 gauge — 5/8 oz rifled slug — 273.4gr foster-style slug (representative)",
+      "color": "#34d399",
+      "visible": false,
+      "muzzleVelocityFps": 1580,
+      "projectile": {
+        "ballisticCoefficient": 0.1,
+        "dragModel": "G1",
+        "weightGrains": 273.4,
+        "diameterInches": 0.615,
+        "bcEstimation": {
+          "mode": "known",
+          "points": [
+            {},
+            {}
+          ]
+        },
+        "spinDrift": {
+          "enabled": false,
+          "twistDirection": "right"
+        }
+      },
+      "scope": {
+        "zeroDistanceYards": 100,
+        "sightHeightInches": 1.5,
+        "adjustment": {
+          "unit": "moa",
+          "vertical": 0,
+          "horizontal": 0
+        },
+        "zeroConditions": {
+          "mode": "current",
+          "atmosphereMode": "weather",
+          "pressureType": "absolute"
+        }
+      },
+      "environment": {
+        "mode": "weather",
+        "temperatureF": 59,
+        "pressureInHg": 29.92,
+        "pressureType": "absolute",
+        "relativeHumidity": 50,
+        "altitudeFeet": 0,
+        "powderTemperature": {
+          "mode": "none",
+          "points": [
+            {},
+            {}
+          ]
+        }
+      },
+      "windAndAngle": {
+        "windSpeedMph": 0,
+        "windDirectionDegrees": 90,
+        "windReference": "relative",
+        "verticalWindDirection": "updraft",
+        "coriolisEnabled": false,
+        "cantDirection": "clockwise",
         "shootingAngle": {
           "mode": "direct",
           "degrees": 0,

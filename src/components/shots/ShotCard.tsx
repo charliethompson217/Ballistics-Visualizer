@@ -24,6 +24,9 @@ interface ShotCardProps {
   onChange: (shot: Shot) => void
   onDuplicate: () => void
   onDelete: () => void
+  onDragStart: () => void
+  onDragEnd: () => void
+  onMove: (direction: -1 | 1) => void
 }
 
 function Disclosure({
@@ -73,6 +76,9 @@ export function ShotCard({
   onChange,
   onDuplicate,
   onDelete,
+  onDragStart,
+  onDragEnd,
+  onMove,
 }: ShotCardProps) {
   const [openSection, setOpenSection] = useState<'scope' | 'environment' | 'wind' | 'advanced' | null>(null)
   const [editingName, setEditingName] = useState(false)
@@ -110,10 +116,41 @@ export function ShotCard({
   }
 
   return (
-    <article className={`shot-card ${expanded ? 'shot-card--expanded' : ''}`} style={{ '--shot-color': shot.color } as React.CSSProperties}>
+    <article className={`shot-card ${expanded ? 'shot-card--expanded' : ''}`} aria-label={shot.name || 'Untitled trajectory'} style={{ '--shot-color': shot.color } as React.CSSProperties}>
       <header className="shot-card__header">
-        <span className="shot-card__index">{String(index + 1).padStart(2, '0')}</span>
-        <span className="shot-card__dot" />
+        <button
+          className="shot-card__drag"
+          type="button"
+          draggable
+          aria-label={`Reorder ${shot.name || 'Untitled trajectory'}`}
+          title="Drag to reorder · Use Up or Down arrow keys when focused"
+          onDragStart={(event) => {
+            event.dataTransfer.effectAllowed = 'move'
+            event.dataTransfer.setData('text/plain', shot.id)
+            const header = event.currentTarget.parentElement!
+            const bounds = header.getBoundingClientRect()
+            event.dataTransfer.setDragImage(header, event.clientX - bounds.left, event.clientY - bounds.top)
+            onDragStart()
+          }}
+          onDragEnd={onDragEnd}
+          onKeyDown={(event) => {
+            if (event.key !== 'ArrowUp' && event.key !== 'ArrowDown') return
+            event.preventDefault()
+            onMove(event.key === 'ArrowUp' ? -1 : 1)
+          }}
+        >
+          <Icon name="grip" size={14} />
+          <span>{String(index + 1).padStart(2, '0')}</span>
+        </button>
+        <label className="shot-card__color" title={`Change color for ${shot.name || 'Untitled trajectory'}`}>
+          <input
+            type="color"
+            aria-label={`Color for ${shot.name || 'Untitled trajectory'}`}
+            value={/^#[\da-f]{6}$/i.test(shot.color) ? shot.color : '#ff6b2c'}
+            onChange={(event) => update((draft) => { draft.color = event.target.value })}
+          />
+          <span />
+        </label>
         <span className="shot-card__heading">
           {editingName ? (
             <span className={`shot-card__name-editor ${errors.name ? 'field--error' : ''}`}>

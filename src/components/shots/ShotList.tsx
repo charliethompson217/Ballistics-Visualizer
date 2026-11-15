@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useState, type DragEvent } from 'react'
 import type { Shot, ShotInputMode } from '../../ballistics/types'
 import type { ShotErrors } from '../../validation/shotSchema'
 import type { UnitSystem } from '../../units/conversions'
@@ -14,6 +14,7 @@ interface ShotListProps {
   inputMode: ShotInputMode
   onExpand: (id: string) => void
   onChange: (shot: Shot) => void
+  onReorder: (sourceId: string, targetId: string, position: 'before' | 'after') => void
   onInputModeChange: (mode: ShotInputMode) => void
   onAdd: () => void
   onDuplicate: (shot: Shot) => void
@@ -23,12 +24,32 @@ interface ShotListProps {
   onExport: () => void
 }
 
-export function ShotList({ shots, errors, units, energyRequested, expandedId, inputMode, onExpand, onChange, onInputModeChange, onAdd, onDuplicate, onDelete, fileStatus, onImport, onExport }: ShotListProps) {
+export function ShotList({ shots, errors, units, energyRequested, expandedId, inputMode, onExpand, onChange, onReorder, onInputModeChange, onAdd, onDuplicate, onDelete, fileStatus, onImport, onExport }: ShotListProps) {
   const fileInputRef = useRef<HTMLInputElement>(null)
+  const [draggedId, setDraggedId] = useState<string | null>(null)
+  const [dropTarget, setDropTarget] = useState<{ id: string; position: 'before' | 'after' } | null>(null)
+  const [reorderStatus, setReorderStatus] = useState('')
   const sourceName = shots.find((shot) => shot.id === expandedId)?.name ?? shots[0]?.name ?? 'the first trajectory'
 
+  const stopDragging = () => {
+    setDraggedId(null)
+    setDropTarget(null)
+  }
+
+  const dropPosition = (event: DragEvent<HTMLDivElement>) => {
+    const bounds = event.currentTarget.getBoundingClientRect()
+    return event.clientY < bounds.top + bounds.height / 2 ? 'before' : 'after'
+  }
+
+  const moveWithKeyboard = (index: number, direction: -1 | 1) => {
+    const target = shots[index + direction]
+    if (!target) return
+    onReorder(shots[index].id, target.id, direction === -1 ? 'before' : 'after')
+    setReorderStatus(`${shots[index].name || 'Untitled trajectory'} moved to position ${index + direction + 1} of ${shots.length}.`)
+  }
+
   return (
-    <aside className="shot-panel">
+    <aside className="shot-panel" id="trajectory-editor">
       <div className="panel-heading">
         <h2>Trajectories</h2>
         <span className="count-badge">{shots.length}</span>
@@ -49,22 +70,45 @@ export function ShotList({ shots, errors, units, energyRequested, expandedId, in
         </p>
       </section>
 
-      <div className="shot-list">
+      <p className="shot-list__hint">Drag the grip to reorder · Click a color to change it</p>
+      <span className="visually-hidden" role="status">{reorderStatus}</span>
+      <div className="shot-list" onDragLeave={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setDropTarget(null)
+      }}>
         {shots.map((shot, index) => (
-          <ShotCard
+          <div
             key={shot.id}
-            shot={shot}
-            index={index}
-            errors={errors.get(shot.id) ?? {}}
-            units={units}
-            energyRequested={energyRequested}
-            expanded={expandedId === shot.id}
-            sharedConditions={inputMode === 'sharedConditions'}
-            onExpand={() => onExpand(shot.id)}
-            onChange={onChange}
-            onDuplicate={() => onDuplicate(shot)}
-            onDelete={() => onDelete(shot.id)}
-          />
+            className={`shot-list__item ${draggedId === shot.id ? 'is-dragging' : ''} ${dropTarget?.id === shot.id ? `shot-list__item--drop-${dropTarget.position}` : ''}`}
+            onDragOver={(event) => {
+              if (!draggedId) return
+              event.preventDefault()
+              event.dataTransfer.dropEffect = 'move'
+              setDropTarget(draggedId === shot.id ? null : { id: shot.id, position: dropPosition(event) })
+            }}
+            onDrop={(event) => {
+              if (!draggedId) return
+              event.preventDefault()
+              onReorder(draggedId, shot.id, dropPosition(event))
+              stopDragging()
+            }}
+          >
+            <ShotCard
+              shot={shot}
+              index={index}
+              errors={errors.get(shot.id) ?? {}}
+              units={units}
+              energyRequested={energyRequested}
+              expanded={expandedId === shot.id}
+              sharedConditions={inputMode === 'sharedConditions'}
+              onExpand={() => onExpand(shot.id)}
+              onChange={onChange}
+              onDuplicate={() => onDuplicate(shot)}
+              onDelete={() => onDelete(shot.id)}
+              onDragStart={() => setDraggedId(shot.id)}
+              onDragEnd={stopDragging}
+              onMove={(direction) => moveWithKeyboard(index, direction)}
+            />
+          </div>
         ))}
       </div>
 
