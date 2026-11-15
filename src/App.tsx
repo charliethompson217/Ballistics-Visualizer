@@ -5,6 +5,7 @@ import { calculateTrajectory, calculationRangeForView } from './ballistics/engin
 import { GraphControls } from './components/graph/GraphControls'
 import { TrajectoryGraph } from './components/graph/TrajectoryGraph'
 import { TrajectoryTooltip } from './components/graph/TrajectoryTooltip'
+import { ExportResultsDialog } from './components/graph/ExportResultsDialog'
 import { ShotList } from './components/shots/ShotList'
 import { BullseyeView } from './components/target/BullseyeView'
 import { PanelDivider } from './components/PanelDivider'
@@ -52,6 +53,7 @@ function App() {
   const [inspectionRange, setInspectionRange] = useState(50)
   const [sidebarOpen, setSidebarOpen] = useState(true)
   const [zoomLocked, setZoomLocked] = useState(false)
+  const [exportResultsOpen, setExportResultsOpen] = useState(false)
   const [shotFileStatus, setShotFileStatus] = useState<{ type: 'success' | 'error'; message: string } | null>(null)
 
   useEffect(() => {
@@ -262,6 +264,7 @@ function App() {
               onUnitsChange={setUnits}
               onRangeUnitChange={setRangeUnit}
               onCalculationQualityChange={setCalculationQuality}
+              onExportResults={() => setExportResultsOpen(true)}
             />
             <div className="graph-stack">
               {visibleViews.map((view, index) => (
@@ -346,6 +349,17 @@ function App() {
           />
         )}
       </main>
+      {exportResultsOpen && (
+        <ExportResultsDialog
+          shots={shots}
+          trajectories={trajectories}
+          range={configuredRange}
+          calculationQuality={calculationQuality}
+          units={units}
+          rangeUnit={rangeUnit}
+          onClose={() => setExportResultsOpen(false)}
+        />
+      )}
     </div>
   )
 }

@@ -63,9 +63,10 @@ interface GraphControlsProps {
   onUnitsChange: (units: UnitSystem) => void
   onRangeUnitChange: (unit: ImperialRangeUnit) => void
   onCalculationQualityChange: (quality: CalculationQuality) => void
+  onExportResults: () => void
 }
 
-export function GraphControls({ views, viewOrder, range, units, rangeUnit, sidebarOpen, zoomLocked, calculationQuality, onViewsChange, onViewOrderChange, onGraphLayoutChange, onRangeChange, onReset, onToggleSidebar, onToggleZoomLock, onUnitsChange, onRangeUnitChange, onCalculationQualityChange }: GraphControlsProps) {
+export function GraphControls({ views, viewOrder, range, units, rangeUnit, sidebarOpen, zoomLocked, calculationQuality, onViewsChange, onViewOrderChange, onGraphLayoutChange, onRangeChange, onReset, onToggleSidebar, onToggleZoomLock, onUnitsChange, onRangeUnitChange, onCalculationQualityChange, onExportResults }: GraphControlsProps) {
   const detailsRef = useRef<HTMLDetailsElement>(null)
   const [draggedView, setDraggedView] = useState<GraphView | null>(null)
   const rangePresets = units === 'metric'
@@ -220,6 +221,7 @@ export function GraphControls({ views, viewOrder, range, units, rangeUnit, sideb
           {zoomLocked ? 'Unlock zoom' : 'Lock zoom'}
         </button>
         <button type="button" className="control-button" onClick={onReset}><Icon name="reset" size={16} />Reset</button>
+        <button type="button" className="control-button" onClick={onExportResults} aria-label="Export results" title="Export results as CSV, JSON, or PDF"><Icon name="download" size={16} />Export results</button>
         <button type="button" className="control-button" onClick={onToggleSidebar}><Icon name="collapse" size={16} />{sidebarOpen ? 'Hide editor' : 'Show editor'}</button>
       </div>
     </div>

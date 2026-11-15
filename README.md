@@ -22,6 +22,7 @@ The project was loosely inspired by the [Winchester Ballistics Calculator](https
 * Lock graph zoom while scrolling the page.
 * Save configurations locally in the browser.
 * Import and export complete trajectory sets as JSON.
+* Export selected active trajectory results as CSV, JSON, or a PDF report.
 
 ## How It Works
 
@@ -81,6 +82,14 @@ Save the response as a `.json` file and load it with **Import JSON**. The schema
 requires the main calculation inputs so generated files are ready to use; the
 importer also accepts unfinished configurations saved from the editor. A schema
 checks structure and limits, not the accuracy of projectile specifications.
+
+## Results Export
+
+Choose **Export results** in the graph controls to select active trajectories and a sampling interval (10 of the selected range units by default). Results cover the configured graph range, including its endpoints and each interval multiple between them. Zooming does not change the export range. Exports follow the UI's unit system and range axis: meters, centimeters, m/s, and joules in metric; yards or feet, inches, fps, and ft-lb in US units. Vertical offset is signed relative to the line of sight. Energy is unavailable when bullet weight is omitted.
+
+CSV includes a row per trajectory and distance, with selectable columns. Range, vertical offset, velocity, and energy are included by default; trajectory ID and name are optional. Results JSON includes sampled data and trajectory settings with explicit units. PDF reports give each selected trajectory readable settings first, then a results table, each starting on its own portrait page. A landscape graph fills the final page of each trajectory's section, with only axis labels and a small trajectory name inside the plot. Long tables continue onto additional pages. Exports are limited to 10,000 total table rows; use a larger interval or select fewer trajectories for large ranges.
+
+The existing **Export JSON** and **Import JSON** actions in the trajectory editor continue to save and restore configurations separately. Results JSON uses its own format and is intended for analysis.
 
 ## Development
 
